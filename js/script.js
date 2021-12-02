@@ -7,8 +7,11 @@ let userLastname = prompt ('inserisci qui il tuo cognome');
 // chiedi colore preferito con prompt (favourite color)
 let favouriteColor = prompt ('inserisci qui il tuo colore preferito');
 
+//definisci stringa "21"
+let numberPssw = '21';
 
 // concatena stringa "21" a variabili precenti
+let password = userName + userLastname + favouriteColor + numberPssw;
 
 
 

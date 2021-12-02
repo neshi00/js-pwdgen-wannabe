@@ -13,6 +13,8 @@ let numberPssw = '21';
 // concatena stringa "21" a variabili precenti
 let password = userName + userLastname + favouriteColor + numberPssw;
 
-
-
 // scrivi in DOM attraverso id #passwgen -> nomecognomecolorepreferito21
+
+// document.getElementById('passwgen').innerHTML = password
+let htmlElement = document.getElementById('passwgen');
+htmlElement.innerHTML = `questa è la tua nuova password (AUGURI!!) ---> ${password}`
